@@ -1,0 +1,13 @@
+{
+    "manifest_version":2,
+    "name":"Site Lanucher",
+    "description":"This extension unables use to visit important site quicky and efficiently",
+    "version":"1.0.0",
+    "icons":{"1":"./img/hnet.com-image.ico"},
+    "browser_action":{
+        "default_icon":"./img/hnet.com-image.ico",
+        "default_popup":"popup.html"
+    },
+    "permissions":["activeTab"]
+   
+}
